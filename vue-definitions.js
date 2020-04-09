@@ -581,7 +581,7 @@ let app = new Vue({
 
     dataTypes: ['Confirmed Cases', 'Reported Deaths'],
 
-    selectedData: 'Confirmed Cases',
+    selectedData: 'Reported Deaths',
 
     sliderSelected: false,
 
@@ -603,7 +603,7 @@ let app = new Vue({
 
     isHidden: true,
 
-    selectedCountries: ['Australia', 'Canada', 'China', 'France', 'Germany', 'Iran', 'Italy', 'Japan', 'South Korea', 'Spain', 'Switzerland', 'US', 'United Kingdom', 'India', 'Pakistan'],
+      selectedCountries: ['Sweden', 'Australia', 'Canada', 'China', 'France', 'Germany', 'Iran', 'Italy', 'Japan', 'South Korea', 'Spain', 'Switzerland', 'US', 'United Kingdom', 'India', 'Pakistan'],
 
     graphMounted: false,
 
